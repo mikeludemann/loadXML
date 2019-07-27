@@ -1,11 +1,11 @@
 # loadXML
 
-A function for loading external JSON files with callback methods
+A function for loading external XML files with callback methods
 
 ## Example
 
 ```
-loadXML("./your-data.json", function(response) {
+loadXML("./your-data.xml", function(response) {
 
   var data = response.responseXML;;
 
